@@ -1,6 +1,10 @@
+import carpim.CarpimTablosu;
 import degiskenler.TumDegiskenler;
+import denklem.FonksiyonDenklem;
 import fibonacci.FibonacciSerisi;
 import fordongusuu.ForDongusuDemo;
+import nothesap.ElseIf;
+import nothesapp.SwitchCase;
 
 
 public class Main {
@@ -12,5 +16,13 @@ public class Main {
         fibonacciSerisi.fibonacciOzellikleri();
         ForDongusuDemo forDongusuu=new ForDongusuDemo();
         forDongusuu.forOzellikleri();
+        CarpimTablosu carpimTablosu=new CarpimTablosu();
+        carpimTablosu.carpimtablosuOzellikleri();
+        ElseIf elseIF=new ElseIf();
+        elseIF.elseifDepoApp();
+        FonksiyonDenklem denklemOdev=new FonksiyonDenklem();
+        denklemOdev.denklemDemoApp();
+        SwitchCase notHesap=new SwitchCase();
+        notHesap.switchCase();
 
 }}

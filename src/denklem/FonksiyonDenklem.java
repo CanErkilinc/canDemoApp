@@ -2,7 +2,7 @@ package denklem;
 
 import java.util.Scanner;
 
-public class DenklemOdev {
+public class FonksiyonDenklem {
     public void denklemDemoApp() {
 
         // x > 0 , y < 0 ise f(x,y) = 4x +2y +4
@@ -14,7 +14,6 @@ public class DenklemOdev {
         int x= scanner.nextInt();
 
         System.out.println("y degerini giriniz:   ");
-        Scanner scanner=new Scanner(System.in);
         int y= scanner.nextInt();
         int sonuc=0;
 
